@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>HTML Avanzado</title>
+</head>
+<body>
+   <!--Una tabla es un conjunto de filas y columnas que contienen información 
+        necesaria. Nos sirve para organizar y tener una mejor visibilidad de los elementos
+        **Celda: es la intersección de una fila y una columna, que contiene información
+                en HTML la definimos con la etiqueta <td></td>
+        **Fila: se definen mediante la etiqueta <tr></tr>
+        **Encabezado: Se definen mediante la etiqueta <th></th>
+        **Tabla: para iniciar una se define la etiueta <table></table> y se divide en dos partes
+                    -Cabeza de la tabla: <thead></thead>
+                    -Cuerpo de la tabla: <tbody></tbody>
+    -->
+    <h3> Nombre de personas </h3>
+    <table>
+        <thead> 
+            <tr><!--Fila 1 del encabezado-->
+                <th>Nombre</th>
+                <th>Edad</th>
+                <th>País</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Fila 2--> 
+                <td>Juanito Perez</td>
+                <td>26</td>
+                <td>México</td>
+            </tr>
+            <tr> <!--Fila 3--> </tr>
+                <td>Oliver Smith</td>
+                <td> 20</td>
+                <td>Inglaterra</td>
+            </tr>
+            <tr> <!--Fila 4--> 
+                <td>Josie Trodeau</td>
+                <td>23</td>
+                <td>Francia</td>
+            </tr>
+        </tbody>
+    </table> 
+    <br>
+    <!--Tablita 2-->
+    <caption>Maestros pokemon</caption>
+    <table>
+        <thead>
+            <tr><!--Maestro 1-->
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Pokemon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr> <!--Mqestro 1-->
+                <td>Osvaldo</td>
+                <td>Morales</td>
+                <td><a href="https://www.pokemon.com/el/pokedex/totodile" target:_blank> Totodile</a></td>
+            </tr>
+            <tr>
+                <td>Nancy</td>
+                <td>Pérez</td>
+                <td id="moltres"> Moltres <br> <img src="/assets/images/moltres.png" alt="Moltres"> </td>
+            </tr>
+            <tr>
+                <td>Hiram</td>
+                <td> Navarro</td>
+                <td>Mew</td>
+            </tr>
+            <tr>
+
+            </tr>
+        </tbody>
+    </table>
+    <!--Horario de clases de lunes a viernes con horarios de 8 a9, 9 a 10 y  10 a 11 con las materias que gustes-->
+    <br>
+    <br>
+    <h3>HORARIO</h3>
+    <table >
+        <thead class="horario">
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </thead>
+        <tbody class="horario2">
+            <tr>
+                <td>8:00 - 9:00</td>
+                <td>Matemáticas</td>
+                <td>Filosofía</td>
+                <td>Física</td>
+                <td>Español</td>
+                <td>Química</td>
+            </tr>
+            <tr>
+                <td>9:00 - 10:00</td>
+                <td>Artes</td>
+                <td>Matemáticas</td>
+                <td>Ética</td>
+                <td>Química</td>
+                <td>Filosofía</td>
+            </tr>
+            <tr>
+                <td>10:00 - 11:00</td>
+                <td>Física</td>
+                <td>Química</td>
+                <td>Filosofía</td>
+                <td>Español</td>
+                <td>Matemáticas</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
