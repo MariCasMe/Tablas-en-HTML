@@ -3,12 +3,9 @@ table, th, td{
     border: 1px solid black;
     border-collapse: collapse;
     text-align: center;
+    width: 500px;
 }
 
-table{
-    /*width: 100%;*/
-    width: 1000 px;
-}
 a{
     text-decoration: none;
     color: darkmagenta;
@@ -26,4 +23,13 @@ a{
 .horario2{
     background-color: rgb(183, 138, 226);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h3{
+    text-align: center;
+
+}
+
+#form2{
+    padding: 15px ;
+    background-color: rgb(144, 192, 211);
 }
